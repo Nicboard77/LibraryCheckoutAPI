@@ -21,7 +21,7 @@ public class ItemCheckoutService {
         if(!itemCheckoutRepository.findAll().isEmpty()) {
             return itemCheckoutRepository.findAll();
         } else {
-            throw new Exception("There are no items!");
+            throw new Exception("There are no items checked out currently!");
         }
 
     }

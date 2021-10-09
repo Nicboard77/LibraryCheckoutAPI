@@ -41,8 +41,7 @@ public class Customer{
     )
     private String lastName;
     @Column(
-            name = "email",
-            unique = true
+            name = "email"
     )
 
     private String email;
